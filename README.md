@@ -6,7 +6,11 @@ Helen Totterdell
 
 Using a dataset provided by the University of California, Irvine, data from experiments involving a group
 of 30 volunteers was reshaped to provide the average and standard deviation of measurements for each 
-combination of subject and activity (Walking, Walking Upstairs, Walking Downstairs, etc.).
+combination of subject and activity (Walking, Walking Upstairs, Walking Downstairs, etc.). The subject
+labels, activity labels and measurements were first combined for each group and the mean and standard deviation for
+each combination of subject and activity recorded.  The train and test data was then joined together to create one
+dataset.
+
 
 For each record is provided:
 
